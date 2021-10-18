@@ -40,8 +40,8 @@ def readTXT(filename):
   data = data[:,[2,0,1,3]]
   return data
 
-def progress_bar(i,iterated_object, progressbar_len=50):
-    progress = (i+1)/len(iterated_object)
+def progress_bar(i,len_iterated_object, progressbar_len=50):
+    progress = (i+1)/len_iterated_object
     block = int(progressbar_len*progress)
     clear_output(wait=True)
     text = "Progress: [{0}] {1:.1f}%".format( "#" * block + "-" * (progressbar_len - block), progress * 100)
