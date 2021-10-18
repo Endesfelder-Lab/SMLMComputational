@@ -67,10 +67,10 @@ def create_trajectories(tracked_data,frame1,frame2,maxDistance,tracksCounter):
 
     # Now we have to select only those entries that are < maxDistance. We want
     # to extract the IDs of the localizations in frame n+1 that belong to them.
-    NeighbourIDs = foundnn[:,foundnn[1] < maxDistance][1].astype(int)
+    NeighbourIDs = foundnn[:,foundnn[0] < maxDistance][1].astype(int)
     # We also want to extract the ID of the original localizations by
     # finding the row index of the nearest neighbours.
-    OriginIDs = np.where(foundnn[1] < maxDistance)[0].astype(int)
+    OriginIDs = np.where(foundnn[0] < maxDistance)[0].astype(int)
 
     # For every found neighbour, we make both neighbours the same track-id.
     # First, we check that the neighbour on frame n has or doesn't have an
