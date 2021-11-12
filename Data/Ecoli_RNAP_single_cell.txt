@@ -1,3 +1,4 @@
+# <localizations insequence="true" repetitions="variable"><field identifier="ImageNumber-0-0" syntax="integer" semantic="frame number" unit="frame" min="0 fr" /><field identifier="Position-0-0" syntax="floating point with . for decimals and optional scientific e-notation" semantic="position in sample space in X" unit="nanometer" min="0 m" max="7.224e-005 m" /><field identifier="Position-1-0" syntax="floating point with . for decimals and optional scientific e-notation" semantic="position in sample space in Y" unit="nanometer" min="0 m" max="3.6894e-005 m" /><field identifier="Amplitude-0-0" syntax="floating point with . for decimals and optional scientific e-notation" semantic="emission strength" unit="A/D count" /></localizations>
 32.00 36093.80 22520.40 20472.00
 33.00 38258.80 24039.10 17863.00
 34.00 38258.20 24045.20 15287.00
